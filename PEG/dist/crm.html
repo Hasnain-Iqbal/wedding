@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="theme-default">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>PEG - Influencer Dashboard</title>
+
+
+    <link type="text/css" href="assets/css/themes/default/vendor-fullcalendar.css" rel="stylesheet">
+    <link type="text/css" href="assets/css/themes/default/vendor-weathericons.css" rel="stylesheet">
+    <link type="text/css" href="assets/css/themes/default/vendor-bootstrap-datepicker.css" rel="stylesheet">
+
+    <!-- Prevent the demo from appearing in search engines -->
+    <meta name="robots" content="noindex">
+
+    <!-- Simplebar -->
+    <link type="text/css" href="assets/vendor/simplebar.css" rel="stylesheet">
+
+    <!-- App CSS -->
+    <link type="text/css" href="assets/css/themes/default/app.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="d-flex flex-column position-relative h-100">
+
+        <nav class="navbar navbar-expand-md navbar-dark bg-primary d-print-none">
+            <a class="navbar-brand" href="index.html">
+                <span class="navbar-brand-text"><img src="./assets//images/logo.png" width="120px" /></span>
+            </a>
+         
+            <!-- END DEMO  COLORS -->
+            <button class="navbar-toggler navbar-toggler-right d-md-none d-lg-none" type="button" data-toggle="sidebar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+            <div class="collapse navbar-collapse" id="mainNavbar">
+                <ul class="navbar-nav ml-auto ">
+                    <li class="nav-item dropdown nav-dropdown">
+                        <a href="#" class="nav-link dropdown-toggle dropdown-clear-caret" data-toggle="dropdown" aria-expanded="false">
+             Dashboard <img src="assets/images/avatars/andrew-robles-300868.jpg" class="img-fluid rounded-circle ml-1" width="35" alt="">
+        </a>
+                        <div class="dropdown-menu dropdown-menu-right dropdown-menu-account">
+                            <div class="account-info">
+                                <img src="assets/images/avatars/andrew-robles-300868.jpg" class="img-fluid rounded-circle mr-2" width="45" alt="">
+                                <div class="lh-12">
+                                    <a href="profile.html"><strong>Jane Doe</strong></a>
+                                    <div class="text-light">Influencer</div>
+                                </div>
+                            </div>
+                            <ul class="list-unstyled account-menu">
+                                <li><a href="account.html" class="dropdown-item "><i class="material-icons md-18 align-middle mr-1">lock</i> <span class="align-middle">Account</span></a></li>
+                                <li><a href="profile.html" class="dropdown-item "><i class="material-icons md-18 align-middle mr-1">account_circle</i> <span class="align-middle">Profile</span></a></li>
+                                <li><a href="#" class="dropdown-item"><i class="material-icons md-18 align-middle mr-1">settings</i> <span class="align-middle">Settings</span></a></li>
+                                <li>
+                                    <a href="#" class="dropdown-item">
+                <i class="material-icons md-18 align-middle mr-1">build</i>
+                <span class="align-middle">Support</span>
+              </a>
+                                </li>
+                                <li>
+                                    <a href="#" class="dropdown-item">
+                <i class="material-icons md-18 align-middle mr-1">question_answer</i>
+                <span class="align-middle">FAQ</span>
+              </a>
+                                </li>
+                                <li><a href="login.html" class="dropdown-item"><i class="material-icons md-18 align-middle mr-1">exit_to_app</i> <span class="align-middle">Logout</span></a></li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="mdk-drawer-layout js-mdk-drawer-layout" data-fullbleed data-push data-has-scrolling-region>
+            <div class="mdk-drawer-layout__content mdk-header-layout__content--scrollable">
+              <div class="container">
+                <div class="card">
+                    <div class="card-header">
+                        <h4 class="card-title">
+                            Your Customers
+                        </h4>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" class="text-center">#</th>
+                                        <th scope="col" class="text-center">First Name</th>
+                                        <th scope="col" class="text-center">Last Name</th>
+                                        <th scope="col" class="text-center">Email</th>
+                                        <th scope="col" class="text-center">Phone Number</th>
+                                        <th scope="col" class="text-center">Address</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th class="align-middle text-center" scope="row">1</th>
+                                        <td class="align-middle text-center">Steven</td>
+                                        <td class="align-middle text-center">Short</td>
+                                        <td class="align-middle text-center">steve@gmail.com</td>
+                                        <td class="align-middle text-center">+1 (230) 555-1234</td>
+                                        <td class="align-middle text-center">70 L Tampa Florida</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="align-middle text-center" scope="row">2</th>
+                                        <td class="align-middle text-center">Mike</td>
+                                        <td class="align-middle text-center">Doe</td>
+                                        <td class="align-middle text-center">mikedoe@gmail.com</td>
+                                        <td class="align-middle text-center">+1 (430) 555-7890</td>
+                                        <td class="align-middle text-center">72 L Tampa Florida</td>
+                                    </tr>
+                                    <tr>
+                                        <th class="align-middle text-center" scope="row">4</th>
+                                        <td class="align-middle text-center">John</td>
+                                        <td class="align-middle text-center">Doe</td>
+                                        <td class="align-middle text-center">john@gmail.com</td>
+                                        <td class="align-middle text-center">+1 (130) 555-4567</td>
+                                        <td class="align-middle text-center">74 L Tampa Florida</td>
+                                    </tr>
+                              
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- drawer -->
+            <div class="mdk-drawer js-mdk-drawer" id="default-drawer">
+                <div class="mdk-drawer__content">
+                    <div class="mdk-drawer__inner" data-simplebar data-simplebar-force-enabled="true">
+
+                        <nav class="drawer  drawer--dark">
+                            <div class="drawer-spacer drawer-spacer-border">
+                                <div class="media align-items-center">
+                                    <img src="assets/images/avatars/andrew-robles-300868.jpg" class="img-fluid rounded-circle mr-2" width="40" alt="">
+                                    <div class="media-body" style="line-height: 1.2">
+                                        <a href="profile.html"><strong>Jane Doe</strong></a>
+                                        <div>Influencer</div>
+                                    </div>
+                                    <div class="dropdown">
+                                        <a href="#" class="dropdown-toggle dropdown-clear-caret" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          <i class="material-icons">more_vert</i>
+        </a>
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <a href="profile.html" class="dropdown-item dropdown-item-action ">View Profile</a>
+                                            <a href="account.html" class="dropdown-item dropdown-item-action ">Edit Account</a>
+                                            <a href="#" class="dropdown-item dropdown-item-action">Logout</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                       
+                   
+                            <!-- MENU -->
+                            <ul class="drawer-menu" id="mainMenu" >
+                                <li class="drawer-menu-item">
+                                    <a href="create-website.html">
+        <i class="material-icons">add</i>
+        <span class="drawer-menu-text"> Create your website</span>
+      </a>
+                                </li>
+                                <li class="drawer-menu-item">
+                                    <a href="index.html">
+        <i class="material-icons">home</i>
+        <span class="drawer-menu-text"> Dashboard</span>
+      </a>
+                                </li>
+                                <li class="drawer-menu-item">
+                                    <a href="maps.html">
+        <i class="material-icons">view_quilt</i>
+        <span class="drawer-menu-text"> Products</span>
+      </a>
+                                </li>
+                                <li class="drawer-menu-item">
+                                    <a href="maps.html">
+                                        <i class="material-icons">layers</i>
+        <span class="drawer-menu-text">Links</span>
+      </a>
+                                 
+                                </li>
+                                <li class="drawer-menu-item">
+                                    <a href="maps.html">
+                                        <i class="material-icons">insert_chart</i>
+        <span class="drawer-menu-text">Sales</span>
+      </a>
+                                </li>
+                                <li class="drawer-menu-item ">
+                                    <a href="events-calendar.html">
+        <i class="material-icons">event_note</i>
+        <span class="drawer-menu-text">Reports</span>
+      </a>
+                                </li>
+                                <li class="drawer-menu-item ">
+                                    <a href="crm.html">
+        <i class="material-icons">language</i>
+        <span class="drawer-menu-text">CRM - Leads</span>
+      </a>
+                                </li>
+                            </ul>
+                        </nav>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- // END drawer-layout -->
+    </div>
+
+    <!-- jQuery -->
+    <script src="assets/vendor/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <script src="assets/vendor/popper.js"></script>
+    <script src="assets/vendor/bootstrap.min.js"></script>
+
+    <!-- Simplebar -->
+    <!-- Used for adding a custom scrollbar to the drawer -->
+    <script src="assets/vendor/simplebar.js"></script>
+
+
+    <script src="assets/vendor/Chart.min.js"></script>
+    <script src="assets/vendor/moment.min.js"></script>
+    <script src="assets/vendor/dateformat.js"></script>
+    <script src="assets/vendor/bootstrap-datepicker.min.js"></script>
+
+    <script>
+        window.theme = "default";
+    </script>
+    <script src="assets/js/color_variables.js"></script>
+    <script src="assets/js/app.js"></script>
+
+
+    <script src="assets/vendor/dom-factory.js"></script>
+    <!-- DOM Factory -->
+    <script src="assets/vendor/material-design-kit.js"></script>
+    <!-- MDK -->
+
+
+
+    <script>
+        (function() {
+            'use strict';
+
+            // Self Initialize DOM Factory Components
+            domFactory.handler.autoInit()
+
+            // Connect button(s) to drawer(s)
+            var sidebarToggle = Array.prototype.slice.call(document.querySelectorAll('[data-toggle="sidebar"]'))
+
+            sidebarToggle.forEach(function(toggle) {
+                toggle.addEventListener('click', function(e) {
+                    var selector = e.currentTarget.getAttribute('data-target') || '#default-drawer'
+                    var drawer = document.querySelector(selector)
+                    if (drawer) {
+                        drawer.mdkDrawer.toggle()
+                    }
+                })
+            })
+
+            window.top.location.hostname !== window.location.hostname && (window.top.location = window.location)
+
+        })();
+    </script>
+
+
+    <script src="assets/js/charts_index.js"></script>
+    <script src="assets/vendor/fullcalendar.min.js"></script>
+    <script src="assets/js/calendars.js"></script>
+    <script src="assets/vendor/bootstrap-datepicker.min.js"></script>
+    <script src="assets/js/datepicker.js"></script>
+
+
+</body>
+
+</html>
